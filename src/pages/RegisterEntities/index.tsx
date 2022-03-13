@@ -4,9 +4,9 @@ import { useForm } from 'react-hook-form'
 
 import { Header } from '@components/Header'
 import { Dropzone } from '@components/Dropzone'
+import { InputForm } from '@components/Form/Input'
 
 import { Container, Content, Form, Wrapper } from './styles'
-import { InputForm } from '@components/Form/Input'
 
 export const RegisterEntities: React.FC = () => {
   const { control } = useForm()
