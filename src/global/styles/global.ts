@@ -10,7 +10,8 @@ export const GlobalStyle = createGlobalStyle`
   html, body, #root {
     scroll-behavior: smooth;
     font-size: 62.5%; 
-    font-family: 'Roboto', sans-serif;
+
+    background: ${({ theme }) => theme.colors.background};
   }
   
   body {
